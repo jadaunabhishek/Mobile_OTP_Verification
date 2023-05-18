@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#191414"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="150dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="150dp"
+                android:layout_margin="0dp">
+
+                <ImageView
+                    android:id="@+id/mam"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/userbg"
+                    android:scaleType="centerCrop"
+                    android:layout_height="match_parent">
+
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Sign Up!"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:padding="8dp"
+            android:text="Enter your code"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/otpinput"
+                android:textColor="#ffffff"
+                android:layout_width="250dp"
+                android:layout_margin="5dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn"
+                android:ems="10"
+                android:drawableStart="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:hint="6-digit Code"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColorHint="#ffffff"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_gravity="center"
+                android:text="We sent an SMS with a 6-digit code to your number"
+                android:textColor="#ffffff"
+                android:textSize="12dp" />
+
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/otpnext"
+            android:layout_width="180dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#1db954"
+            android:text="Next"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textAllCaps="false"
+            android:textColor="#191414"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/resendotp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#191414"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:text="Resend SMS"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/sms"
+            android:padding="10dp"
+            android:drawablePadding="5dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/editphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#191414"
+            android:text="Edit phone number"
+            android:padding="10dp"
+            android:drawableStart="@drawable/pencil"
+            android:drawablePadding="5dp"
+            android:clickable="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mobile_OTP_Verification" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">#191414</item>
+        <item name="android:navigationBarColor">#191414</item>
+    </style>
+
+    <style name="Theme.Mobile_OTP_Verification" parent="Base.Theme.Mobile_OTP_Verification" />
+</resources>

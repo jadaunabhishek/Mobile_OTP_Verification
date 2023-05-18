@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightblack">#191414</color>
+
+    <style name="CheckBox" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">#FFFFFF</item>
+    </style>
+
+</resources>
